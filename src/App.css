@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Cormorant', serif;
+
+}
+body{
+  background-color: grey;
+  scroll-snap-type: y mandatory;
+}
+.hero1, .hero2, .hero3, .hero4{
+  scroll-snap-align: start;
+}
+p{
+  text-align: justify;
+  line-height: 200%;
+  font-size: .9vw;
+}
+
+h1{
+  font-size: 6vw;
+}
+
+h2{
+  font-size: 3vw;
+  font-weight: 300;
+}
+
+.hero1{
+  display: flex;
+  height: 110vh;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.hero1Text{
+  width: 50vw;
+  position: relative;
+}
+
+
+.hero1 p{
+  columns: 2;
+  max-width: 80%;
+}
+.hero1 img{
+  width: 50%;
+  object-fit: contain;
+}
+/*****************************/
+
+.hero2{
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero2Text{
+  width: 80%;
+  height: auto;
+}
+
+
+
+.hero2 p{
+  font-size: 20px;
+}
+.hero2 img{
+  float: left;
+  height: 100%;
+  width:40%;
+  object-fit: contain;
+  shape-outside: ellipse(50% 50%);
+  margin: 0 12% 2% 0;
+}
+
+/********************/
+
+.hero3{
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero3Text{
+  width: 80%;
+  height: auto;
+}
+
+
+.hero3 p{
+  font-size: 20px;
+}
+.hero3 img{
+  float: left;
+  height: 100%;
+  width:40%;
+  object-fit: contain;
+  shape-outside: url('https://www.stickpng.com/assets/thumbs/596dba84ed07ad6118f99903.png');
+}
+
+/********************/
+
+.hero4{
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero4Text{
+  height: auto;
+  width: 80%;
+}
+
+
+.hero4 p{
+  font-size: 20px;
+}
+.hero4 img{
+  float: left;
+  height: 100%;
+  width:50%;
+  object-fit: contain;
+  shape-outside: polygon(7.9% 28.6%, 7.6% 70.05%, 37.45% 92.3%, 48.15% 91.5%, 69.75% 81.55%, 75.8% 78.75%, 80.65% 76.6%, 91.8% 69.6%, 86.7% 66.95%, 77.7% 64.45%, 82.65% 54.35%, 87.75% 47.25%, 79.55% 37.3%, 81.4% 32%, 74.9% 31.25%, 70.7% 27.05%, 71.6% 16%, 41% 0.3%);
+  margin: 0 4% 4% 0;
+}
