@@ -3,7 +3,7 @@ import React from 'react'
 export default function hero2(){
 	return(
 <section className="hero2">
-            <section className="hero2Text">
+            <section className="heroText">
 
             <img src="https://vignette.wikia.nocookie.net/garfield/images/9/9f/GarfieldCharacter.jpg/revision/latest?cb=20180421131132" alt='boop' className="garfield90"/>
             <h1>Garfield</h1>

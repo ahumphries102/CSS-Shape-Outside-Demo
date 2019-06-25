@@ -3,8 +3,9 @@ import React from 'react'
 export default function hero1(){
 	return(
 <section className="hero1">
+            <section className="heroText">
             <img src="http://sales.garfield.com/oldgarfield.jpg" alt='boop' className="background"/>
-            <section className="hero1Text">
+
             <h1>Old Garfield</h1>
             <h2>No Shape | '78</h2>
             <p>Garfield is an orange, fuzzy tabby cat born in the kitchen of an Italian restaurant (later revealed in the television special Garfield: His 9 Lives to be Mama Leoni's Italian Restaurant) who immediately ate all the pasta and lasagna in sight, thus developing his love and obsession for lasagna and pizza.[44][45]

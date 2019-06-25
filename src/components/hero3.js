@@ -3,7 +3,7 @@ import React from 'react'
 export default function hero3(){
 	return(
 <section className="hero3">
-            <section className="hero3Text">
+            <section className="heroText">
 
             <img src="https://www.stickpng.com/assets/thumbs/596dba84ed07ad6118f99903.png" alt='boop' className="garfield90"/>
             <h1>Garfield HD</h1>
